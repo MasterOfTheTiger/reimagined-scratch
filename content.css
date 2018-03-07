@@ -1,0 +1,104 @@
+#pagewrapper {
+    padding-top: 10px;
+}
+#topnav .innerwrap {
+    background-color: #25aff4;
+    height: 50px;
+}
+#topnav ul.site-nav {
+    height: 50px;
+}
+#topnav ul.site-nav li {
+    border: 0;
+}
+.search {
+    border: 0;
+}
+#topnav ul.site-nav li a {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding: 13px 15px 13px 15px;
+}
+#topnav .logo span {
+    background-image: url("https://scratch.mit.edu/images/logo_sm.png");
+    height: 50px;
+    width: 81px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 95%;
+    margin: 0 6px 0 0;
+    border: 0;
+    display: block;
+    transition: .15s ease all;
+}
+#topnav ul.account-nav .messages .messages-icon {
+    background-image: url("https://scratch.mit.edu/images/nav-notifications.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 45%;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 30px;
+    height: 50px;
+    overflow: hidden;
+    text-indent: 50px;
+    white-space: nowrap;
+}
+#topnav ul.account-nav .my-stuff .mystuff-icon {
+    background-image: url("https://scratch.mit.edu/images/mystuff.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 45%;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 30px;
+    height: 50px;
+    overflow: hidden;
+    text-indent: 50px;
+    white-space: nowrap;
+}
+#topnav ul.account-nav .messages .notificationsCount {
+    display: block;
+    position: absolute;
+    top: .5rem;
+    right: .25rem;
+    border-radius: 1rem;
+    background-color: #f49d25;
+    padding: 0;
+    text-indent: 0;
+    line-height: 1rem;
+    color: #fff;
+    font-size: .7rem;
+    font-weight: bold;
+}
+#topnav ul.account-nav > li {
+    border: 0;
+}
+.logged-in-user {
+    height: 50px;
+}
+.user-name {
+    margin-top: 9px;
+}
+#topnav ul.account-nav.logged-in > li {
+    border: 0;
+}
+#topnav ul.account-nav .logged-in-user .user-icon {
+    border: 0;
+    border-radius: 3px;
+}
+#topnav ul.account-nav .logged-in-user .dropdown-menu {
+    background-color: #25aff4;
+}
+#topnav li.logout.divider input {
+    background-color: #25aff4;
+}
+#topnav form.search input {
+    height: 30px;
+    border-radius: 5px;
+}
+#topnav form.search .glass {
+    border: 0;
+    height: 38px;
+}
