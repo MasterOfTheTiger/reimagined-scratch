@@ -108,7 +108,7 @@
     top: 42px;
 }
 /* Fixes editor top margin bug */
-.container {
-    position: fixed;
-    top: 0;
+#project {
+    position: relative;
+    top: 50;
 }
