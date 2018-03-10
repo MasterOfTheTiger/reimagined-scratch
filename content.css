@@ -107,3 +107,8 @@
 .dropdown .dropdown-menu {
     top: 42px;
 }
+/* Fixes editor top margin bug */
+.container {
+    position: fixed;
+    top: 0;
+}
