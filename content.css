@@ -102,3 +102,8 @@
     border: 0;
     height: 38px;
 }
+
+/* Dropdown menu */
+.dropdown .dropdown-menu {
+    top: 42px;
+}
