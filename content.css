@@ -110,5 +110,5 @@
 /* Fixes editor top margin bug */
 #project {
     position: relative;
-    top: 50;
+    top: -10px;
 }
