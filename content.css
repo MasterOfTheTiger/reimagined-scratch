@@ -84,6 +84,12 @@
 #topnav ul.account-nav.logged-in > li {
     border: 0;
 }
+#topnav .innerwrap .container ul li:hover {
+    background-color: #219DDB;
+}
+#topnav ul.account-nav .logged-in-user.dropdown.open {
+    background-color: #219DDB !important;
+}
 #topnav ul.account-nav .logged-in-user .user-icon {
     border: 0;
     border-radius: 3px;
@@ -106,6 +112,7 @@
 /* Dropdown menu */
 .dropdown .dropdown-menu {
     top: 42px;
+    min-width: 100px;
 }
 /* Fixes editor top margin bug */
 #project {
