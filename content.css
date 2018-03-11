@@ -5,21 +5,50 @@
     background-color: #25aff4;
     height: 50px;
 }
+
+/* Navigation buttons */
 #topnav ul.site-nav {
     height: 50px;
 }
 #topnav ul.site-nav li {
     border: 0;
 }
-.search {
+#topnav ul.site-nav li.last {
     border: 0;
 }
 #topnav ul.site-nav li a {
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: bold;
     line-height: 1.5em;
     padding: 13px 15px 13px 15px;
 }
+
+/* Search bar */
+.search #search-input {
+    border: 0;
+    background-color: #219DDB;
+    color: white;
+    max-width: 200px !important;
+}
+#topnav form.search input {
+    height: 30px;
+    border-radius: 5px;
+}
+#topnav form.search .glass {
+    border: 0;
+    height: 38px;
+    background-image: url('https://scratch.mit.edu/images/nav-search-glass.png');
+    background-position: 0;
+    background-size: 15px;
+    left: 10px;
+    top: -2px;
+    cursor: pointer;
+}
+#search-input:focus {
+    background-color: #1E8CC3;
+}
+
+/* Changes Scratch logo */
 #topnav .logo span {
     background-image: url("https://scratch.mit.edu/images/logo_sm.png");
     height: 50px;
@@ -32,6 +61,12 @@
     display: block;
     transition: .15s ease all;
 }
+/*.logo:hover {
+    background-image: url("https://scratch.mit.edu/images/logo_sm.png") !important;
+    background-size: 110%;
+}*/
+
+/* Right of searchbar */
 #topnav ul.account-nav .messages .messages-icon {
     background-image: url("https://scratch.mit.edu/images/nav-notifications.png");
     background-repeat: no-repeat;
@@ -77,6 +112,7 @@
 }
 .logged-in-user {
     height: 50px;
+    width: 180px;
 }
 .user-name {
     margin-top: 9px;
@@ -100,19 +136,19 @@
 #topnav li.logout.divider input {
     background-color: #25aff4;
 }
-#topnav form.search input {
-    height: 30px;
-    border-radius: 5px;
-}
-#topnav form.search .glass {
+
+.dropdown span.dropdown-toggle span.caret {
     border: 0;
-    height: 38px;
 }
 
 /* Dropdown menu */
 .dropdown .dropdown-menu {
     top: 42px;
     min-width: 100px;
+}
+.dropdown-arrow {
+    margin-left: 10px;
+    height: 7px;
 }
 /* Fixes editor top margin bug */
 #project {
