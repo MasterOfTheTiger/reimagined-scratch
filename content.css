@@ -1,6 +1,6 @@
-#pagewrapper {
-    padding-top: 10px;
-}
+/* Header CSS */
+
+/* Change header color */
 #topnav .innerwrap {
     background-color: #25aff4;
     height: 50px;
@@ -149,9 +149,37 @@
 .dropdown-arrow {
     margin-left: 10px;
     height: 7px;
+    position: absolute;
+    right: 20px;
+    top: 45%;
 }
-/* Fixes editor top margin bug */
+
+/* End of header CSS */
+
+/* Misc CSS */
+
+/* Adds a bit of breather space between the header and the first content */
+#pagewrapper {
+    padding-top: 10px;
+}
+/* Above code screws up the editor, this fixes it: */
 #project {
     position: relative;
     top: -10px;
+}
+
+/* End Misc CSS */
+
+/* Logos */
+
+#comment-user img, .avatar, .lazy {
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+#comment-user img:hover, .avatar:hover, .lazy:hover {
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.box .box-head .portrait img {
+    border: 0;
 }
