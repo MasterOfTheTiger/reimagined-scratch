@@ -172,6 +172,10 @@
 
 /* Logos */
 
+.thumb img {
+    border: 0;
+}
+
 #comment-user img, .avatar, .lazy {
     border-radius: 3px;
     transition-duration: 0.5s;
