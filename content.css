@@ -187,3 +187,61 @@
 .box .box-head .portrait img {
     border: 0;
 }
+
+/* End Logos */
+
+
+/* Discuss dropdown */
+
+.dropdown-2 {
+    position: relative;
+    display: block;
+}
+
+.dropdown-2 .dropdown-menu {
+    position: absolute;
+    top: 37px;
+    display: none;
+    margin: 0;
+    list-style: none;
+    width: 100%; 
+    padding: 0;
+    
+    margin-left: -15px;
+}
+
+#di:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu:hover {
+    display: block;
+}
+
+/** Button Styles **/
+.dropdown-2 button {
+    background: transparent;
+    border: none;
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+/** List Item Styles **/
+.dropdown-2 a {
+    display: block;
+    text-decoration: none;
+    background: #25aff4;
+    color: #333333;
+    width: 135px;
+    float: left;
+}
+
+/** List Item Hover Styles **/
+.dropdown-2 a:hover {
+    background: #219DDB;
+}
+
+
+/* End discuss buttons */

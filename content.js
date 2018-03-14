@@ -40,8 +40,10 @@ function fixDiscuss() {
             break;
     }
     var button = document.getElementsByTagName('a')[3];
+    document.getElementsByTagName('li')[2].id = 'di';
     button.href = '/discuss';
-    button.innerHTML = discuss;
+
+    button.innerHTML = '<div class="dropdown-2"> <span class=\"d\">' + discuss +'</span> <div class="dropdown-menu"> <a href="https://scratch.mit.edu/discuss/5/">Announcements</a>  <a href="https://scratch.mit.edu/discuss/7/">Help with Scripts</a>  <a href="https://scratch.mit.edu/discuss/10/">Collaboration</a>  <a href="https://scratch.mit.edu/discuss/11/">Requests</a> <a href="https://scratch.mit.edu/discuss/1/">Suggestions</a> <a href="https://scratch.mit.edu/discuss/3/">Report Glitches</a> </div></div>';
     
 }
 window.onload = function() {
@@ -58,7 +60,7 @@ window.onload = function() {
     while (buttons[x].dataset.control != 'load-more') {
         x++;
     }
-    console.log(buttons[x].dataset.control);
+    
     buttons[x].addEventListener(click, function () {setTimeout(() => {
         fixDates();
     }, 5000)});
