@@ -4,6 +4,8 @@
 #topnav .innerwrap {
     background-color: #25aff4;
     height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 }
 
 /* Navigation buttons */
@@ -16,19 +18,26 @@
 #topnav ul.site-nav li.last {
     border: 0;
 }
+.user-nav li {
+    margin: 10px 0px !important;
+}
 #topnav ul.site-nav li a {
     font-size: 14px;
     font-weight: bold;
     line-height: 1.5em;
     padding: 13px 15px 13px 15px;
 }
-
+#logout:hover, #logout form:hover form, #logout form:hover input, #logout form:hover {
+    background-color: #219DDB;
+}
+#topnav li.logout.divider input:hover {
+    background-color: #219DDB;
+}
 /* Search bar */
 .search #search-input {
     border: 0;
     background-color: #219DDB;
     color: white;
-    max-width: 200px !important;
 }
 #topnav form.search input {
     height: 30px;
@@ -112,7 +121,9 @@
 }
 .logged-in-user {
     height: 50px;
-    width: 180px;
+}
+#topnav ul.account-nav .logged-in-user {
+    padding-right: 30px !important;
 }
 .user-name {
     margin-top: 9px;
