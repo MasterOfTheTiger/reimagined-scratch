@@ -256,3 +256,17 @@
 
 
 /* End discuss buttons */
+
+/* Forum stuff */
+
+/* Gives some contract to the "Close topic" button */
+.conl dd form button {
+    color: red;
+    border-color: red;
+    border-width: 2px;
+    font-weight: bold;
+}
+.conl dd form button:hover:after {
+    content: "  Warning! This is not the submit button!";
+    font-weight: normal;
+}
