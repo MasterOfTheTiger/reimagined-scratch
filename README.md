@@ -8,7 +8,6 @@ This is unfinished and has some bugs.
 A Chrome version is not available in the webstore, but you can load it anyway with these instructions. 
 - [Download](https://github.com/MasterOfTheTiger/reimagine-scratch/archive/master.zip) the code in a zip file
 - Unzip it
-- Open the menu in Chrome
 - Open a new tab and go to chrome://extensions
 - Check "Developer mode"
 - Click "load unpacked extension"
