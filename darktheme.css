@@ -1,0 +1,43 @@
+/* Only works on homepage and project pages*/
+#navigation {
+  background-color: #333 !important;
+}
+.dropdown {
+  background-color: #555 !important;
+}
+body {
+  color: #FFF !important;
+}
+#view {
+  background-color: #888 !important;
+}
+.box .box-content {
+  background-color: #AAA !important;
+}
+.social-message-date {
+  color: #EEE !important;
+}
+.news li p {
+  color: #212144 !important;
+}
+a:not(#navigation a)  {
+  color: #3F3FFF !important;
+}
+#footer {
+  background-color: #555 !important;
+  color: #EEE !important;
+}
+p {
+  color: #FFF !important;
+}
+.comment .comment-body .comment-bubble {
+  color: #000 !important;
+}
+.subactions .share-date {
+  color: #FFF !important;
+}
+.preview-row:nth-of-type(3) {
+  background-color: #EEE !important;
+  color: #333 !important;
+  border-radius: 10px !important; /*Just to add a visual effect */
+}
