@@ -2,7 +2,7 @@
 
 /* Change header color */
 #topnav .innerwrap {
-    background-color: #25aff4;
+    background-color: #4D97FF;
     height: 50px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
@@ -20,6 +20,7 @@
 }
 .user-nav li {
     margin: 10px 0px !important;
+    font-weight: bold;
 }
 #topnav ul.site-nav li a {
     font-size: 14px;
@@ -28,15 +29,17 @@
     padding: 13px 15px 13px 15px;
 }
 #logout:hover, #logout form:hover form, #logout form:hover input, #logout form:hover {
-    background-color: #219DDB;
+    background-color: #4588E5;
+    font-weight: bold;
 }
 #topnav li.logout.divider input:hover {
-    background-color: #219DDB;
+    background-color: #4588E5;
+    font-weight: bold;
 }
 /* Search bar */
 .search #search-input {
     border: 0;
-    background-color: #219DDB;
+    background-color: #4588E5;
     color: white;
 }
 #topnav form.search input {
@@ -54,7 +57,7 @@
     cursor: pointer;
 }
 #search-input:focus {
-    background-color: #1E8CC3;
+    background-color: #3E79CC;
 }
 
 /* Changes Scratch logo */
@@ -132,20 +135,20 @@
     border: 0;
 }
 #topnav .innerwrap .container ul li:hover {
-    background-color: #219DDB;
+    background-color: #4588E5;
 }
 #topnav ul.account-nav .logged-in-user.dropdown.open {
-    background-color: #219DDB !important;
+    background-color: #4588E5 !important;
 }
 #topnav ul.account-nav .logged-in-user .user-icon {
     border: 0;
     border-radius: 3px;
 }
 #topnav ul.account-nav .logged-in-user .dropdown-menu {
-    background-color: #25aff4;
+    background-color: #4D97FF;
 }
 #topnav li.logout.divider input {
-    background-color: #25aff4;
+    background-color: #4D97FF;
 }
 
 .dropdown span.dropdown-toggle span.caret {
@@ -243,7 +246,7 @@
 .dropdown-2 a {
     display: block;
     text-decoration: none;
-    background: #25aff4;
+    background: #4D97FF;
     color: #333333;
     width: 135px;
     float: left;
@@ -251,7 +254,7 @@
 
 /** List Item Hover Styles **/
 .dropdown-2 a:hover {
-    background: #219DDB;
+    background: #4588E5;
 }
 
 
@@ -259,7 +262,7 @@
 
 /* Forum stuff */
 
-/* Gives some contract to the "Close topic" button */
+/* Gives some contrast to the "Close topic" button */
 .conl dd form button {
     color: red;
     border-color: red;
